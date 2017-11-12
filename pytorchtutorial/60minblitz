@@ -1,1 +1,4 @@
 http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+torch --> numpy : VAR.numpy()
+numpy --> torch : torch.from_numpy(VAR)
+cuda : VAR = VAR.cuda()
