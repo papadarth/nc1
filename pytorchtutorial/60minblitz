@@ -1,4 +1,14 @@
 http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+## Tensor
 torch --> numpy : VAR.numpy()
 numpy --> torch : torch.from_numpy(VAR)
 cuda : VAR = VAR.cuda()
+## Variable
+autograd package --> automatic differentiation for all operation on Tensors
+i) autograd.Variable is central class of the package, wrapping a Tensor; Variable[data,grad,creator]
+ii) function; Variable has .grad_fn attribute, that refenrences a function, that created the variable 
+    (variables created by the user has .grad_fn == None)
+ .backward() calculates the derivatives, if variable has more then one element, it has to be specified
+ ## neural networks
+ uses torch.nn package
+ 
