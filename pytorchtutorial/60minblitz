@@ -11,4 +11,13 @@ ii) function; Variable has .grad_fn attribute, that refenrences a function, that
  .backward() calculates the derivatives, if variable has more then one element, it has to be specified
  ## neural networks
  uses torch.nn package
+ nn.Module - encapsulating parameters to module
+ nn.Parameter - kind of var automatically registered
+ autograd.Function - implements forward and backward definition of an autograd
+ 
+ ## cifar example --> see ct1.py
+ 
+ ## Training on GPU
+ net.cuda()
+ inputs, labels = Variable(inputs.cuda()), Variable(labels.cuda())
  
