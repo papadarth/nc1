@@ -11,3 +11,5 @@
 #  a ) set it up for one systems without depedencies
 #  b ) sort (not for sandboxes)
 # 4. get dependencies
+# A. TODOs
+Look for data-pipelines: torch.utils.data.DataLoader
