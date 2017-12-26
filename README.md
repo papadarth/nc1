@@ -12,4 +12,5 @@
 # 4. get dependencies
 # A. TODOs
 - Look for data-pipelines: torch.utils.data.DataLoader
-- test
+- RNN / LSTMS
+- Visualize parameters
