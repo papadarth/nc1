@@ -1,2 +1,10 @@
+General 
+
 Hierachical and interpretable multi-task reinforcement learning
 https://einstein.ai/research/hierarchical-reinforcement-learning
+
+Keras
+
+PyTorch
+PyTorch Youtube lecutres
+https://www.youtube.com/watch?v=SKq-pmkekTk
