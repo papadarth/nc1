@@ -76,14 +76,37 @@ class firstCNN(nn.Module):
 			nn.ReLU(),
 			nn.MaxPool1d(2)
 			)
-		self.fc = nn.Linear(filter_size2*13,4) ## how to predict the 13?
+		self.fc = nn.Linear(filter_size2*13,4) 
+			## how to predict the 13
+			"""
+			lets start at the layer1 :
+				input size 	64
+				kernel		4
+				pooling 	2
+				--> (i - k) / p = 30
+				checkt!
+			layer 2:
+				input size 	30
+				kernel 		4
+				pooling 	2
+				--> (i - k) / p = 13
+			max pooling reduces by pooling size
+			kernel size - 1 recudes time if no zero padding is applied
+			stride, padding etc can be applied using the torch class
+				--> class torch.nn.Conv1d(in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True)
+			"""
 
 	def forward(self, x):
 		x   = x.unsqueeze_(1)
+		print "input",x.size()
 		out = self.layer1(x)
+		print "CNN1",out.size()
 		out = self.layer2(out)
+		print "CNN2",out.size()
 		out = out.view(x.size(0),-1)
+		print "flatten",out.size()
 		out = self.fc(out)
+		print "lin",out.size()
 		return out
 
 input_size	= t
