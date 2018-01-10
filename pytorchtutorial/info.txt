@@ -1,0 +1,1 @@
+These code exmaples are copied from other GitHub repositories as a staring point and will be removed afterwards.
