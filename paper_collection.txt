@@ -3,6 +3,10 @@ General
 Hierachical and interpretable multi-task reinforcement learning
 https://einstein.ai/research/hierarchical-reinforcement-learning
 
+Opening the black box of deep neural networks via information
+https://blog.acolyer.org/2017/11/15/opening-the-black-box-of-deep-neural-networks-via-information-part-i/
+
+
 Keras
 
 PyTorch
