@@ -6,6 +6,9 @@ https://einstein.ai/research/hierarchical-reinforcement-learning
 Opening the black box of deep neural networks via information
 https://blog.acolyer.org/2017/11/15/opening-the-black-box-of-deep-neural-networks-via-information-part-i/
 
+CNN Net Overview Slides
+http://web.engr.illinois.edu/~slazebni/spring17/lec01_cnn_architectures.pdf
+
 
 Keras
 
