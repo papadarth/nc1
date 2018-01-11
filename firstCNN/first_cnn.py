@@ -1,11 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """
-pytorch test 1
+learning pytorch
+	testing CNN network
+updates:
+	TODO: 	- insert model.test() and model.eval(); 
+		- implement pytorch's Dataset and DataLoader
 """
 
 __author__  = "Tobias Wagner"
+__version__ = 0.1
 
 import numpy as np
 import pylab as plt
