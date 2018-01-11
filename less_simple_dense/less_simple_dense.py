@@ -6,11 +6,11 @@ learning pytorch
 	testing less simple / 2 layer network
 
 updates:
-	0.2 : the pytorch structures Dataset and DataLoader is used
+	0.3 : the pytorch structures Dataset and DataLoader is used
 """
 
 __author__  = "Tobias Wagner"
-__version__ = 0.2
+__version__ = 0.3
 
 import numpy as np
 import pylab as plt
@@ -120,7 +120,12 @@ rnd             = np.arange(0,800)
 
 for i in range(10):
     print i
-	##model.train()
+    model.train() 	## model.train() and model.test()
+			## By default all the modules are initialized to train mode (self.training = True). 
+			## Some layers have different behavior during train or evaluation 
+			## (like BatchNorm, Dropout) setting.
+			## As a rule of thumb, try to explicitly state your intent 
+			## and set model.train() and model.eval() when necessary.
     for epoch in range(100):
 		for (inputs, targets) in train_loader:
 				inputs = Variable(inputs)
@@ -132,7 +137,7 @@ for i in range(10):
 				optimizer.step()
         
 		print epoch,':',loss.data[0]
-	##model.eval()?
+    model.eval() ## for explanation, please look at model.train()
     for test_data,targets in test_loader:
 			predicted = model(Variable(test_data)).data.numpy()
 			plt.hist(predicted[::4])
