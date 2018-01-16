@@ -13,6 +13,10 @@ http://web.engr.illinois.edu/~slazebni/spring17/lec01_cnn_architectures.pdf
 Keras
 
 PyTorch
+
+PyTorch blog 
+https://towardsdatascience.com/transfer-learning-using-pytorch-4c3475f4495
+
 PyTorch Youtube lecutres
 https://www.youtube.com/watch?v=SKq-pmkekTk
 
