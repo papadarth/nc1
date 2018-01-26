@@ -9,6 +9,8 @@ https://blog.acolyer.org/2017/11/15/opening-the-black-box-of-deep-neural-network
 CNN Net Overview Slides
 http://web.engr.illinois.edu/~slazebni/spring17/lec01_cnn_architectures.pdf
 
+CNN Explanation Blog
+https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
 
 Keras
 
