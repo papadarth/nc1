@@ -1,3 +1,8 @@
+Buch
+
+deep learning book goodfellow
+http://www.deeplearningbook.org/
+
 General 
 
 Hierachical and interpretable multi-task reinforcement learning
