@@ -4,12 +4,21 @@
 - 2nd order less simple dense, version 0.2
   - data-pipelines (torch.utils.data.DataLoader) included
 - 2n order first cnn
+  - my first cnn (LeNet) running
 # 2. integrate
 - produce and open data with L-system
+  - two starting systems are generated
+# 3.0 learn RNN / LSTM time series prediction
+- i) re-use sin predictor (LSTM) for L-system
+- TODOs
+  - encoder / decoder games
+  - how to implement gates on my own
+    - learn from GoogLeNet?
 # 3. Pre-process: 
 #  a ) set it up for one systems without depedencies
 #  b ) sort (not for sandboxes)
 # 4. get dependencies
 # A. TODOs
-
-- RNN / LSTMS --> should be tested at the L-system
+  - CNNs
+    - implement AlexNet
+    - implement GoogleNet
