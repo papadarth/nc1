@@ -29,3 +29,7 @@ https://www.youtube.com/watch?v=SKq-pmkekTk
 
 seq2seq encoder / decoder
 http://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html#the-seq2seq-model
+
+AWS
+exmaple on GPU
+https://dziganto.github.io/aws/cuda/deep%20learning/gpu/python/pytorch/CUDA-on-AWS-for-Deep-Learning/
