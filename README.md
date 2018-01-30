@@ -10,6 +10,7 @@
   - two starting systems are generated
 # 3 learn RNN / LSTM time series prediction
 - i) re-use sin predictor (LSTM) for L-system
+- ii) interpreting first results: is it - in principle possible - to predict more than one cycle of the L-system. Please check with encoder/decoder system. Otherwise, it would be sufficient and consistent to predict one future cycle.
 - TODOs
   - encoder / decoder games
   - how to implement gates on my own
