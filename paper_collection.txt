@@ -17,6 +17,9 @@ http://web.engr.illinois.edu/~slazebni/spring17/lec01_cnn_architectures.pdf
 CNN Explanation Blog
 https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
 
+One model to learn them all
+https://arxiv.org/pdf/1706.05137.pdf
+
 Keras
 
 PyTorch
